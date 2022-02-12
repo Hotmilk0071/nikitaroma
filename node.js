@@ -1,10 +1,6 @@
 'use strict';
 
-const http = require('http');
+const fs = require("fs");
 
-const server = http.createServer(function (request, response) {
-    console.log('hello');
-});
-
-server.listen(3000);
-console.log('Server Started');
+const text = fs.readFileSync('script.js', 'utf8');
+console.log(text);
