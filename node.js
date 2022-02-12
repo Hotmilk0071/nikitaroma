@@ -2,5 +2,10 @@
 
 const fs = require("fs");
 
-const text = fs.readFileSync('script.js', 'utf8');
-console.log(text);
+const server = http.createServer(function (request, response){
+    console.log(request.method, request.url);
+    const text = fs.readFileSync('index.html', 'utf8');
+});
+
+server.listen(3000);
+console.log('Server Started');
