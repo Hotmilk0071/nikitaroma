@@ -9,12 +9,13 @@ const server = http.createServer(function (request, response){
         response.end(css);
     } else {
         const html = fs.readFileSync('Nikita_and_Roma.html', 'utf8');
+        response.end(html);
     }
 });
 
 
 
-console.log('port = ', process.env.PORT);
+console.log('port = ', process.env.PORT || 3000);
 
 server.listen(3000);
 console.log('Server Started');
