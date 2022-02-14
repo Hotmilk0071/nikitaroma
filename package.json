@@ -4,8 +4,10 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-  },
-  "keywords": [],
+    "start": "node node.js"},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }
