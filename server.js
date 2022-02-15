@@ -4,11 +4,11 @@ const fs = require("fs");
 
 const server = http.createServer(function (request, response){
     console.log(request.method, request.url);
-    if (request.url === '/NR_project.css') {
-        const css = fs.readFileSync('NR_project.css', 'utf8');
+    if (request.url === '/style.css') {
+        const css = fs.readFileSync('style.css', 'utf8');
         response.end(css);
     } else {
-        const html = fs.readFileSync('Nikita_and_Roma.html', 'utf8');
+        const html = fs.readFileSync('index.html', 'utf8');
         response.end(html);
     }
 });
