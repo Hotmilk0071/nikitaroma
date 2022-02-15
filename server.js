@@ -13,9 +13,10 @@ const server = http.createServer(function (request, response){
     }
 });
 
+server.listen(2200);
+
+console.log('port = ',
+    process.env.PORT || 2200);
 
 
-console.log('port = ', process.env.PORT || 32320);
-
-server.listen(32320);
 console.log('Server Started');
