@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb64483-9675-40cc-9f07-644c4aa3b44a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gemfile.gem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots" beforeDir="false" afterPath="$PROJECT_DIR$/robots" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <workItem from="1644947000753" duration="2335000" />
       <workItem from="1644949944743" duration="799000" />
       <workItem from="1645029495034" duration="15000" />
-      <workItem from="1645030378831" duration="316000" />
+      <workItem from="1645030378831" duration="535000" />
     </task>
     <servers />
   </component>
