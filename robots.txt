@@ -74,10 +74,5 @@ Disallow: /*?view_result=
 Disallow: /*&view_result=
 Disallow: /*?arrFilter
 Disallow: /*?set_filter=
-Allow: /bitrix/components/
-Allow: /bitrix/cache/
-Allow: /bitrix/js/
-Allow: /bitrix/templates/
-Allow: /bitrix/panel/
 Host: https://shkola-40.herokuapp.com/
 Sitemap: https://shkola-40.herokuapp.com/sitemap.xml
