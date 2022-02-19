@@ -44,7 +44,7 @@ body {
   background-color: rgba(0, 0, 0, .5);
 }
 .card {
-  
+
   display: inline-block;
   margin-left: 8vh;
   margin-bottom: 9vh;
@@ -117,7 +117,11 @@ body {
     max-width: 475px;
   }
 }
-
+@media (max-width: 500px) {
+  .header-title{
+    font-size: 75px;
+  }
+}
 
 .footer {
   display: flex;
