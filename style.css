@@ -82,6 +82,65 @@ body {
 .card-text {
   font-size: 16px;
 }
+
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .inner {
+    width: 80%;
+  }
+
+  #header_colapse .inner {
+    display: block !important;
+  }
+
+  #toggle_switch {
+    display: none;
+  }
+
+  #header .links {
+    margin: 0;
+  }
+
+  #compareInfo {
+    margin-left: 0px;
+    float: left;
+  }
+
+  #header #welcome {
+    display: none;
+  }
+
+  #header #search {
+    position: relative;
+    clear: both;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  #header #search input {
+    width: 70%;
+  }
+
+  #header #support {
+    display: none;
+  }
+
+  #header #logo {
+    margin: 0;
+  }
+
+  #header #cart {
+    width: 100%;
+    min-width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: -27px;
+  }
+}
 @media (max-width: 1920px) {
   .content{
     max-width: 1600px;
