@@ -12,9 +12,7 @@ const server = http.createServer(function (request, response){
         response.end(html);
     }
 });
-app.get('/sitemap.xml', function(req, res){
-    res.send('hello');
-});
+
 console.log('port = ', process.env.PORT);
 
 server.listen(process.env.PORT || 3000);
