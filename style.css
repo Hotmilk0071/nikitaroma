@@ -3,7 +3,6 @@ body, h1 , h2 ,h3, h4, p, a {
   font-size: 80%;
   font-weight: normal;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -16,7 +15,6 @@ body {
 }
 .header {
   height: 100vh;
-
   background-color: #eee;
   background-image: url(https://cdn.discordapp.com/attachments/940199506211905556/941037938786058240/image3.jpg);
   background-size: cover;
@@ -35,7 +33,6 @@ body {
   margin: 80px auto 8px;
   max-width: 1500px;
   font-size: 0;
-
 }
 .overlay {
   display: flex;
