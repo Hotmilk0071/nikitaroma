@@ -10,6 +10,7 @@ const server = http.createServer(function (request, response){
     } else {
         const html = fs.readFileSync('index.html', 'utf8');
         response.end(html);
+
     }
 });
 

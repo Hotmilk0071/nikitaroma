@@ -132,6 +132,13 @@ body {
   margin: auto;
   color: white;
   font-size: 24px;
+
+}
+.footer-author a {
+  text-decoration: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 23px;
+  color: rgb(177, 114, 12);
 }
 
 .Legendari{
