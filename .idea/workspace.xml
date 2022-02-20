@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fb64483-9675-40cc-9f07-644c4aa3b44a" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/sun9-14_userapi_com-h6DtYxN91Co(1).ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\nikitaroma" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +61,8 @@
       <workItem from="1645030378831" duration="535000" />
       <workItem from="1645030952617" duration="2541000" />
       <workItem from="1645270984767" duration="2034000" />
-      <workItem from="1645274812138" duration="8503000" />
+      <workItem from="1645274812138" duration="9096000" />
+      <workItem from="1645353822645" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1645277593562</created>
