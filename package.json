@@ -4,10 +4,12 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "node server.js"},
+    "start": "node server.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.20.0"
+    "axios": "^0.20.0",
+    "express": "^4.17.3"
   }
 }

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6fb64483-9675-40cc-9f07-644c4aa3b44a" name="Changes" comment="initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -66,7 +69,9 @@
       <workItem from="1645270984767" duration="2034000" />
       <workItem from="1645274812138" duration="9096000" />
       <workItem from="1645353822645" duration="5389000" />
-      <workItem from="1645364516305" duration="855000" />
+      <workItem from="1645364516305" duration="1635000" />
+      <workItem from="1645438799222" duration="142000" />
+      <workItem from="1645441361063" duration="6078000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1645277593562</created>
