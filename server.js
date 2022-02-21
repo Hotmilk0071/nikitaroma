@@ -10,6 +10,9 @@ const server = http.createServer(function (request, response) {
     } else if (request.url === '/sitemap.xml'){
         const xml = fs.readFileSync('sitemap.xml', 'utf8');
         response.end(xml);
+    } else if (request.url === '/test'){
+        const html = fs.readFileSync('test.html', 'utf8');
+        response.end(html);
     } else if (request.url === '/robots.txt'){
         const txt = fs.readFileSync('robots.txt', 'utf8');
         response.end(txt);
