@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-<loc>https://shkola-40.herokuapp.com/</loc>
-<lastmod>2022-02-21</lastmod>
-<changefreq>weekly</changefreq>
-<priority>0.8</priority>
+  <loc>http://shkola-40.herokuapp.com/sitemap.xml</loc>
+  <priority>0.8</priority>
+  <changefreq>weekly</changefreq>
+  <lastmod>2022-02-22</lastmod>
 </url>
 </urlset>
