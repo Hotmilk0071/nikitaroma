@@ -7,7 +7,7 @@ const server = http.createServer(function (request, response) {
     if (request.url === '/style.css') {
         const css = fs.readFileSync('style.css', 'utf8');
         response.end(css);
-    } else if (request.url === '/sitemap.xml'){
+    } else if (request.url === '/sitemap'){
         const xml = fs.readFileSync('sitemap.xml', 'utf8');
         response.end(xml);
     } else if (request.url === '/test'){
