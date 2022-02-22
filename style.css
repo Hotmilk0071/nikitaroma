@@ -163,3 +163,16 @@ body {
   margin-bottom: 5vh;
   font-size: 20px;
 }
+.ad {
+  position: absolute;
+  margin-top: 180px;
+}
+.ad a {
+  text-decoration: none;
+  font-size: 15px;
+  color: grey;
+}
+.adb a{
+  text-decoration: none;
+  font-size: 20px;
+}
