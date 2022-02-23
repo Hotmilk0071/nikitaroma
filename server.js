@@ -13,9 +13,12 @@ const server = http.createServer(function (request, response) {
     } else if (request.url === '/watchad'){
         const html = fs.readFileSync('watchad.html', 'utf8');
         response.end(html);
-    } else if (request.url === '/robots.txt'){
+    } else if (request.url === '/robots.txt') {
         const txt = fs.readFileSync('robots.txt', 'utf8');
         response.end(txt);
+    } else if (request.url === '/err404.html') {
+        const html =fs.readFileSync('err404.html', 'utf8');
+        response.end(html);
     } else {
         const html = fs.readFileSync('index.html', 'utf8');
         response.end(html);
