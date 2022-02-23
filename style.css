@@ -86,7 +86,41 @@ body {
   color:black;
   font-size: 16px;
 }
+.gg {
+  margin: 0 auto;
+  max-width: 840px;
+}
+.botton {
+  text-align: center;
+  display: inline-block;
+  max-height: 45px;
+  max-width:50%;
+  margin: 50vh;
+  padding: 0 15px ;
+  background-color: rgb(17, 160, 226);
+  border: 3px solid rgb(17, 160, 226);
+  border-radius: 25px;
+  filter: drop-shadow(0px 6px 20px rgb(17, 160, 226, 0.54));
+}
+.botton:hover{
+  background-color: rgb(32, 115, 153);
+  border: 3px solid rgb(32, 115, 153);
+  filter: drop-shadow(0px 6px 20px rgb(32, 115, 153, 0.54));
+}
+.botton:active{
+  background-color: rgb(14, 46, 61);
+  border: 3px solid rgb(14, 46, 61);
+  filter: drop-shadow(0px 6px 20px rgb(14, 46, 61, 0.54));
+}
+.botton a{
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 40px;
 
+  color: #ffffff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+}
 @media (max-width: 1920px) {
   .content{
     max-width: 1600px;
