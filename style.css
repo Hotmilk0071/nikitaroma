@@ -81,6 +81,11 @@ body {
 .card-text {
   font-size: 16px;
 }
+.card-text a {
+  text-decoration: none;
+  color:black;
+  font-size: 16px;
+}
 
 @media (max-width: 1920px) {
   .content{
