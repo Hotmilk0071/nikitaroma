@@ -35,7 +35,7 @@ body {
 .content {
   margin: 80px auto 8px;
   max-width: 1500px;
-  font-size: 0;
+  font-size: 20px;
 }
 .overlay {
   display: flex;
@@ -44,7 +44,6 @@ body {
   background-color: rgba(0, 0, 0, .5);
 }
 .card {
-
   display: inline-block;
   margin-left: 8vh;
   margin-bottom: 9vh;
@@ -54,6 +53,7 @@ body {
   box-shadow: 5px 5px 6px rgba(255 , 154 , 0 , .5);
   background-color: rgba(244,164,96, .2);
 }
+
 .card2 {
 }
 .card3 {
@@ -79,7 +79,14 @@ body {
   margin-bottom: 8px;
 }
 .card-text {
-  font-size: 16px;
+
+}
+.card:hover {
+  font-size: 22px;
+}
+.card:active {
+  position: relative;
+  top: 3px;
 }
 .card-text a {
   text-decoration: none;
@@ -108,6 +115,8 @@ body {
   filter: drop-shadow(0px 6px 20px rgb(32, 115, 153, 0.54));
 }
 .botton:active{
+  position: relative;
+  top: 2px;
   background-color: rgb(14, 46, 61);
   border: 3px solid rgb(14, 46, 61);
   filter: drop-shadow(0px 6px 20px rgb(14, 46, 61, 0.54));
