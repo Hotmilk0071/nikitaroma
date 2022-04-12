@@ -98,15 +98,16 @@ body {
   font-size: 16px;
 }
 .gg {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+  min-height: 100vh;
   margin: 0 auto;
-  max-width: 840px;
 }
 .botton {
-  text-align: center;
-  display: inline-block;
+  display: flex;
   max-height: 45px;
-  mask-width:50vh;
-  margin: 50vh;
+  margin: 0 auto;
   padding: 0 15px ;
   background-color: rgb(17, 160, 226);
   border: 3px solid rgb(17, 160, 226);
