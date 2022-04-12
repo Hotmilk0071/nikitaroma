@@ -219,4 +219,7 @@ body {
   .card {
     max-width: 300px;
   }
+  .header-title {
+    font-size: 70px;
+  }
 }
