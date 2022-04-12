@@ -222,4 +222,10 @@ body {
   .header-title {
     font-size: 70px;
   }
+  .footer-author {
+    font-size: 20px;
+  }
+  .footer-author a {
+    font-size: 19px;
+  }
 }
