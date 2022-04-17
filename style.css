@@ -1,6 +1,6 @@
 body, h1 , h2 ,h3, h4, p, a {
   margin: 0;
-  font-size: 80%;
+  font-size: 90%;
   font-weight: normal;
 }
 * {
@@ -49,16 +49,16 @@ body {
   background-color: rgba(0, 0, 0, .5);
 }
 .card {
-  display: inline-block;
+
   max-width: 350px;
   margin: 0 auto 50px auto;
   padding: 45px 45px 70px;
   box-shadow: 5px 5px 6px rgba(255 , 154 , 0 , .5);
   background-color: rgba(244,164,96, .2);
+  transition-duration: 0.5s;
 }
-
 .card2 {
-  flex: 1 1 auto;
+
 }
 .card3 {
 }
@@ -82,11 +82,9 @@ body {
   font-weight: 500;
   margin-bottom: 8px;
 }
-.card-text {
 
-}
 .card:hover {
-  font-size: 22px;
+  max-width: 400px;
 }
 .card:active {
   position: relative;
@@ -130,7 +128,6 @@ body {
   font-size: 14px;
   letter-spacing: 3px;
   line-height: 40px;
-
   color: #ffffff;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-decoration: none;
@@ -144,7 +141,6 @@ body {
   margin: auto;
   color: white;
   font-size: 24px;
-
 }
 .footer-author a {
   text-decoration: none;
@@ -165,14 +161,14 @@ body {
 }
 .Epic {
   color: rgb(196 , 0 , 255);
-  margin-bottom: 5vh;
+  margin-bottom: .5vh;
   font-size: 20px;
 }
 .Chromatic {
   background: linear-gradient(to right, #fa709a 0%, #fee140 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 5vh;
+  margin-bottom: .5vh;
   font-size: 20px;
 }
 .ad {
@@ -187,7 +183,6 @@ body {
 }
 .adb {
   margin: 20px;
-
 }
 .adb a{
   text-decoration: none;
@@ -202,6 +197,9 @@ body {
   text-decoration: none;
   font-size: 30px;
 }
+.hint {
+  font-size: 90%;
+}
 @media (max-width: 1300px) {
   .content {
     max-width: 1000px;
@@ -212,13 +210,15 @@ body {
     max-width: 600px;
   }
   .card {
-    max-width: 400px;
+    max-width: 350px;
   }
 }
-
 @media (max-width: 580px) {
   .card {
     max-width: 300px;
+  }
+  .card:hover {
+    max-width: 350px;
   }
   .header-title {
     font-size: 70px;
@@ -228,5 +228,11 @@ body {
   }
   .footer-author a {
     font-size: 20px;
+  }
+}
+@media (min-width: 2300px) {
+  .card:hover{
+    max-width: 600px;
+    font-size: 40px;
   }
 }
