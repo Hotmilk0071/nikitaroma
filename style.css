@@ -49,7 +49,6 @@ body {
   background-color: rgba(0, 0, 0, .5);
 }
 .card {
-
   max-width: 350px;
   margin: 0 auto 50px auto;
   padding: 45px 45px 70px;
@@ -82,9 +81,11 @@ body {
   font-weight: 500;
   margin-bottom: 8px;
 }
-
+.card p {
+  transition-duration: 0.5s;
+}
 .card:hover {
-  max-width: 400px;
+  transform: scale(1.1);
 }
 .card:active {
   position: relative;
@@ -218,7 +219,7 @@ body {
     max-width: 300px;
   }
   .card:hover {
-    max-width: 350px;
+    transform: scale(1.07);
   }
   .header-title {
     font-size: 70px;
