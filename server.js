@@ -14,21 +14,13 @@ app.use(favicon(__dirname + '/icon/favicon.png'));
 
 app.use(RewriteMiddleware(RewriteOptions));
 
-app.enable('trust proxy')
 
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
-
-app.all('*', function(req, res, next){
-    console.log('req start: ',req.secure, req.hostname, req.originalurl, app.get('port'));
-    if (req.secure) {
-        return next();
-    }
-
-    res.redirect('https://'+req.hostname + ':' + app.get('secPort') + req.originalurl);
-});
-
+app.use('*', function (request, response) {
+    response.redirect('https://shkola-40.herokuapp.com/')
+})
 
 app.get('*', function(req, res){
     if (req.accepts('html')) {
