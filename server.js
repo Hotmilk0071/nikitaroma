@@ -25,10 +25,6 @@ if (loc.indexOf('http://')===0){
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
-app.use('/', function (request, response) {
-    response.redirect('https://shkola-40.herokuapp.com/')
-})
-
 app.get('*', function(req, res){
     if (req.accepts('html')) {
         res.send('404', '<script>location.href = "/error/index.html";</script>');
