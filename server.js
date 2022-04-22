@@ -10,10 +10,17 @@ const RewriteOptions = {
 const port = process.env.PORT || 3000;
 const app = express();
 
+
 app.use(favicon(__dirname + '/icon/favicon.png'));
 
 app.use(RewriteMiddleware(RewriteOptions));
 
+
+
+const loc = window.location.href+'';
+if (loc.indexOf('http://')===0){
+    window.location.href = loc.replace('http://','https://');
+}
 
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
