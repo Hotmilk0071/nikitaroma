@@ -2,6 +2,4 @@ RewriteEngine On
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 
-RewriteEngine On
-RewriteCond %{SERVER_PORT} !^443$
-RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+Redirect301/ https://shkola-40.herokuapp.com/
