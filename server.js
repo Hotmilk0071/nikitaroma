@@ -14,18 +14,21 @@ app.use(favicon(__dirname + '/icon/favicon.png'));
 
 app.use(RewriteMiddleware(RewriteOptions));
 
+app.enable('trust proxy')
+
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
-app.all(function (req, res, next) {
-    if (req.secure) {
-        // request was via https, so do no special handling
-        next();
-    } else {
-        // request was via http, so redirect to https
-        res.redirect('https://' + req.headers.host + req.url);
+
+app.use(function(request, response, next) {
+
+    if (process.env.NODE_ENV !== 'development' && !request.secure) {
+        return response.redirect("https://" + request.headers.host + request.url);
     }
-});
+
+    next();
+})
+
 
 app.get('*', function(req, res){
     if (req.accepts('html')) {
