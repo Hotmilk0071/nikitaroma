@@ -20,14 +20,14 @@ app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
 
-app.use(function(request, response, next) {
-
-    if (process.env.NODE_ENV !== 'development' && !request.secure) {
-        return response.redirect("https://" + request.headers.host + request.url);
+app.all('*', function(req, res, next){
+    console.log('req start: ',req.secure, req.hostname, req.originalurl, app.get('port'));
+    if (req.secure) {
+        return next();
     }
 
-    next();
-})
+    res.redirect('https://'+req.hostname + ':' + app.get('secPort') + req.originalurl);
+});
 
 
 app.get('*', function(req, res){
