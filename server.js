@@ -18,7 +18,7 @@ app.use(RewriteMiddleware(RewriteOptions));
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
-app.use('*', function (request, response) {
+app.use('/index', function (request, response) {
     response.redirect('https://shkola-40.herokuapp.com/')
 })
 
