@@ -87,10 +87,6 @@ body {
 .card:hover {
   transform: scale(1.1);
 }
-.card:active {
-  position: relative;
-  top: 3px;
-}
 .card-text a {
   text-decoration: none;
   color:black;
