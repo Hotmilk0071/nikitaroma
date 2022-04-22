@@ -1,6 +1,5 @@
 const express = require('express');
 const favicon = require('express-favicon');
-const http = express()
 const path = require('path');
 const RewriteMiddleware = require('express-htaccess-middleware');
 const RewriteOptions = {
@@ -16,13 +15,10 @@ app.use(favicon(__dirname + '/icon/favicon.png'));
 app.use(RewriteMiddleware(RewriteOptions));
 
 
-http.get('*', function(req, res) {
-    res.redirect('https://' + req.headers.host + req.url);
-
-    // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
-    // res.redirect('https://example.com' + req.url);
+app.enable('trust proxy')
+app.use((req, res, next) => {
+    req.secure ? next() : res.redirect('https://' + req.headers.host + req.url)
 })
-
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, )));
 
