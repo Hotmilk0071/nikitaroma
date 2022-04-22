@@ -15,6 +15,7 @@
     "express-favicon": "^2.0.1",
     "express-htaccess-middleware": "^0.1.0",
     "multer": "^1.4.4",
+    "nginx": "^1.0.7",
     "yarn": "^1.22.17"
   }
 }
