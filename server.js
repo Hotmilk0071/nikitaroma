@@ -15,7 +15,7 @@ app.use(favicon(__dirname + '/icon/favicon.png'));
 app.use(RewriteMiddleware(RewriteOptions));
 
 
-app.use('/index', function (request, response) {
+app.use('/http://shkola-40.herokuapp.com/', function (request, response) {
     response.redirect('https://xsltdev.ru')
 })
 
