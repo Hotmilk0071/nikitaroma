@@ -1,5 +1,6 @@
 const express = require('express');
 const favicon = require('express-favicon');
+const http = express()
 const path = require('path');
 const RewriteMiddleware = require('express-htaccess-middleware');
 const RewriteOptions = {
@@ -15,8 +16,11 @@ app.use(favicon(__dirname + '/icon/favicon.png'));
 app.use(RewriteMiddleware(RewriteOptions));
 
 
-app.use('../http://shkola-40.herokuapp.com/', function (request, response) {
-    response.redirect('https://xsltdev.ru')
+http.get('*', function(req, res) {
+    res.redirect('https://' + req.headers.host + req.url);
+
+    // Or, if you don't want to automatically detect the domain name from the request header, you can hard code it:
+    // res.redirect('https://example.com' + req.url);
 })
 
 app.use(express.static(__dirname));
