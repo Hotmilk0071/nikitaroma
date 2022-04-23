@@ -227,9 +227,51 @@ body {
     font-size: 20px;
   }
 }
-@media (min-width: 2300px) {
-  .card:hover{
-    max-width: 600px;
+@media (min-width: 2200px) {
+  .content {
+    font-size: 35px;
+    max-width: 1800px;
+  }
+  .card {
+    max-width: 540px;
+  }
+  .card-title {
     font-size: 40px;
+  }
+  .card-title p {
+    font-size: 37px;
+  }
+  .footer-author{
+    font-size: 35px;
+  }
+  .footer-author a {
+    font-size: 33px;
+  }
+  .card a {
+    font-size: 33px;
+  }
+}
+@media (min-width: 3800px) {
+  .content {
+    font-size: 50px;
+    max-width: 2200px;
+  }
+  .card {
+    max-width: 650px;
+  }
+  .card-title {
+    font-size: 55px;
+  }
+  .card-title p {
+    font-size: 53px;
+  }
+  .footer-author{
+    font-size: 50px;
+  }
+  .footer-author a {
+    font-size: 47px;
+  }
+  .card a {
+    font-size: 45px;
   }
 }
