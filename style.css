@@ -273,16 +273,18 @@ body {
     max-width: 400px;
   }
    .nav-menu {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: 1fr;
-      margin: 0px 0px -10px 0px;
+       display: grid;
+
+       grid-template-columns: repeat(4, minmax(100px,1fr));
+       grid-template-rows: 1fr;
+       margin: 0px 0px -10px 0px;
    }
+   
    .img{
       display: block;
    }
    .card{
-      margin: 0px 17% 70px auto;
+      margin: 0 17% 70px auto;
       
    }
 }
