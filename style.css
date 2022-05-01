@@ -41,7 +41,8 @@ body {
    display: none; 
 }
 
-.button{  
+.button{
+
    padding: 30px; 
    transition-duration: 0.5s;
 }
@@ -77,14 +78,14 @@ body {
    background: linear-gradient(90deg, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 29, 1) 50%,  rgba(131, 58, 180, 1) 100%);
 }
 
-.img{
-   display: none;
+.img{display: none;
    position: sticky;
    top: 30%;
    left: 100%;
    right: 0;
 }
-.scrollImg{   
+.scrollImg{
+    border-radius: 10px;
    width: 55px;
    height: 55px;
    padding: 10px;
@@ -98,7 +99,7 @@ body {
   justify-content: space-between;
   flex: 1 1 33.333%;
   align-items: center;
-  margin: 30px auto 50px auto;
+  margin: 70px auto 70px auto;
   max-width: 1350px;
   font-size: 20px;
 }
@@ -267,6 +268,7 @@ body {
 }
 @media (max-width: 750px) {
   .content {
+      margin: 30px auto 50px auto;
     max-width: 600px;
   }
   .card {
@@ -294,7 +296,6 @@ body {
 }
 @media (max-width: 580px) {
   .card {
-
     max-width: 300px;
   }
   .card:hover {
