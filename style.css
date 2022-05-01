@@ -279,7 +279,12 @@ body {
        grid-template-rows: 1fr;
        margin: 0px 0px -10px 0px;
    }
-   
+   .button-yelloow  {
+        padding: 0 ;
+    }
+   .button-hromo {
+       padding: 0;
+   }
    .img{
       display: block;
    }
