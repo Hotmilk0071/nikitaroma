@@ -98,7 +98,7 @@ body {
   justify-content: space-between;
   flex: 1 1 33.333%;
   align-items: center;
-  margin: 80px auto;
+  margin: 30px auto 50px auto;
   max-width: 1350px;
   font-size: 20px;
 }
