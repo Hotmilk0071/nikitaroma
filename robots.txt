@@ -1,4 +1,0 @@
-User-agent: Googlebot
-Sitemap: https://shkola-40.herokuapp.com/sitemap.xml
-User-agent: Yandex
-Sitemap: https://shkola-40.herokuapp.com/sitemap.xml
